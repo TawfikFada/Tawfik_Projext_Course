@@ -1,2 +1,2 @@
-# Tawfik_Projext_Course
+# Tawfik_Project_Course
 Contains script for project course
