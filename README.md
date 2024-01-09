@@ -1,7 +1,7 @@
 # Tawfik_Project_Course
 Contains script for project course
 
-The data consists of...
+The data consists of treated and mock data from patients with SarsCov-2 and controll 
 
 The preproccesing of the data that was preformed in Galaxy using the following tools and options: 
 
