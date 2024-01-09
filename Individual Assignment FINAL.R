@@ -2,6 +2,7 @@
 # LiU ID: Tawfa921
 # Email: Tawfa921@student.liu.se
 # Last edited: 17/12/2023
+# Script description: Visualization and differential expression analysis of Mock and Treated samples. 
 #-------------------------------------------------------------------------------
 # Setting working directory
 setwd("~/Prjoect course R Data")
