@@ -133,9 +133,6 @@ rownames(FDR_pvalue) <- rownames(gene_expression)
 
 FDR_pvalue
 
-# Creating significant_pvalue with keep FDR p value<0.05 
-significant_pvalue2 <- FDR_pvalue[FDR_pvalue$padjust<0.05,,drop=FALSE]
-
 # adding the logFC values into the FDR_pvalue data frame
 logFC <- (rowMeans(gene_expression[i, 1:3])-rowMeans(gene_expression[i, 4:6]))
 
@@ -145,7 +142,7 @@ FDR_pvalue$logFC <- logFC
 
 # Generate a data frame named top_genes, containing the top 7 up-regulated and top 7 down-regulated genes.
 
-top_genes <- significant_pvalue[c(1:7, 4231:4238),]
+top_genes <- significant_pvalue[c(1:7, 5219:5226),]
 
 top_genes <- rownames(top_genes) 
 
